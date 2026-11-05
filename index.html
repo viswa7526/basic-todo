@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>Focus — Your daily tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <div class="brand" aria-label="Focus task manager">
+            <span class="brand-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m5 12 4 4L19 6"></path>
+                </svg>
+            </span>
+            <span>focus<span aria-hidden="true">.</span></span>
+        </div>
+
+        <section class="todo-card" aria-labelledby="pageTitle">
+            <header class="card-header">
+                <p class="eyebrow">Your personal workspace</p>
+                <h1 id="pageTitle">Make today count.</h1>
+                <p class="subtitle">A little progress each day adds up to big results.</p>
+
+                <div class="overview" aria-live="polite">
+                    <div>
+                        <span class="overview-label">Today's progress</span>
+                        <span class="overview-value" id="progressSummary">No tasks yet</span>
+                    </div>
+                    <div class="progress-wrap">
+                        <div
+                            class="progress-track"
+                            id="progressTrack"
+                            role="progressbar"
+                            aria-label="Tasks completed"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="0"
+                        >
+                            <div class="progress-bar" id="progressBar"></div>
+                        </div>
+                        <span class="progress-value" id="progressValue">0%</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="card-content">
+                <form class="input-area" id="taskForm">
+                    <label class="input-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M12 5v14M5 12h14"></path>
+                        </svg>
+                        <input
+                            type="text"
+                            id="taskInput"
+                            placeholder="What needs to get done?"
+                            maxlength="200"
+                            autocomplete="off"
+                            aria-label="New task"
+                        >
+                    </label>
+                    <button class="add-btn" id="addBtn" type="submit">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                            <path d="M12 5v14M5 12h14"></path>
+                        </svg>
+                        <span>Add task</span>
+                    </button>
+                </form>
+
+                <div class="list-toolbar">
+                    <h2 class="list-heading">Your tasks</h2>
+                    <div class="filters" role="group" aria-label="Filter tasks">
+                        <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+                        <button class="filter-btn" type="button" data-filter="active" aria-pressed="false">Active</button>
+                        <button class="filter-btn" type="button" data-filter="completed" aria-pressed="false">Done</button>
+                    </div>
+                </div>
+
+                <ul class="task-list" id="taskList" aria-label="Task list"></ul>
+
+                <footer class="list-footer">
+                    <span id="taskCount" aria-live="polite">0 tasks left</span>
+                    <button class="clear-btn" id="clearCompletedBtn" type="button" hidden>Clear completed</button>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
