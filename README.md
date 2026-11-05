@@ -2,6 +2,10 @@
 
 A simple and focused to-do app built with HTML, CSS, and JavaScript.
 
+## 🖼️ Preview
+
+![Todo app preview](./preview.svg)
+
 ## ✨ Features
 - Add new tasks
 - Mark tasks as complete

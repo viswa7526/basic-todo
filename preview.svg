@@ -1,0 +1,74 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF1FF"/>
+      <stop offset="1" stop-color="#F6F7FB"/>
+    </linearGradient>
+    <linearGradient id="card" x1="600" y1="130" x2="600" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FCFCFF"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8179F4"/>
+      <stop offset="1" stop-color="#6258E8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="250" y="90" width="700" height="620" rx="28" fill="url(#card)" stroke="#E8EBF4"/>
+
+  <g opacity="0.95">
+    <rect x="290" y="142" width="34" height="34" rx="10" fill="#6258E8"/>
+    <path d="M302 159L307.5 164.5L318 154" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="336" y="168" fill="#333D54" font-family="Arial, sans-serif" font-size="20" font-weight="700">focus.</text>
+  </g>
+
+  <text x="290" y="230" fill="#6258E8" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">YOUR PERSONAL WORKSPACE</text>
+  <text x="290" y="270" fill="#172033" font-family="Arial, sans-serif" font-size="40" font-weight="700">Make today count.</text>
+  <text x="290" y="305" fill="#788196" font-family="Arial, sans-serif" font-size="18">A little progress each day adds up to big results.</text>
+
+  <rect x="290" y="332" width="620" height="88" rx="16" fill="#F8F8FF" stroke="#EEEFF7"/>
+  <text x="318" y="365" fill="#788196" font-family="Arial, sans-serif" font-size="12" font-weight="600">Today's progress</text>
+  <text x="318" y="392" fill="#172033" font-family="Arial, sans-serif" font-size="18" font-weight="700">2 of 4 completed</text>
+
+  <rect x="760" y="360" width="120" height="8" rx="4" fill="#E8E9F2"/>
+  <rect x="760" y="360" width="68" height="8" rx="4" fill="url(#progress)"/>
+  <text x="892" y="372" fill="#788196" font-family="Arial, sans-serif" font-size="12" font-weight="700">50%</text>
+
+  <rect x="290" y="450" width="540" height="52" rx="12" fill="#FFFFFF" stroke="#E4E7EF"/>
+  <circle cx="314" cy="476" r="8" fill="#D9DDF2"/>
+  <path d="M309 476H319" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M314 471V481" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <text x="336" y="482" fill="#A0A7B6" font-family="Arial, sans-serif" font-size="18">What needs to get done?</text>
+
+  <rect x="842" y="450" width="68" height="52" rx="12" fill="#6258E8"/>
+  <path d="M867 470V488M858 479H876" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <text x="822" y="483" fill="white" font-family="Arial, sans-serif" font-size="15" font-weight="700">Add</text>
+
+  <g>
+    <text x="290" y="540" fill="#30394C" font-family="Arial, sans-serif" font-size="16" font-weight="700">Your tasks</text>
+    <rect x="664" y="523" width="246" height="30" rx="9" fill="#F4F5F9"/>
+    <rect x="670" y="528" width="42" height="20" rx="7" fill="#FFFFFF"/>
+    <text x="682" y="543" fill="#172033" font-family="Arial, sans-serif" font-size="11" font-weight="700">All</text>
+    <text x="724" y="543" fill="#788196" font-family="Arial, sans-serif" font-size="11" font-weight="700">Active</text>
+    <text x="792" y="543" fill="#788196" font-family="Arial, sans-serif" font-size="11" font-weight="700">Done</text>
+  </g>
+
+  <g>
+    <rect x="290" y="560" width="620" height="60" rx="12" fill="#FFFFFF" stroke="#E9ECF2"/>
+    <circle cx="318" cy="590" r="8" fill="#34A77A" fill-opacity="0.12" stroke="#34A77A" stroke-width="1.5"/>
+    <text x="338" y="596" fill="#30394C" font-family="Arial, sans-serif" font-size="16">Finish landing page copy</text>
+    <path d="M870 576L878 584L892 570" stroke="#AEB4C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <rect x="290" y="628" width="620" height="60" rx="12" fill="#FFFFFF" stroke="#E9ECF2"/>
+    <circle cx="318" cy="658" r="8" fill="#FFFFFF" stroke="#D0D6E4" stroke-width="2"/>
+    <text x="338" y="664" fill="#30394C" font-family="Arial, sans-serif" font-size="16">Review sprint notes</text>
+    <path d="M860 648H884V672H860V648Z" stroke="#929AAB" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M864 653L868 657L876 649" stroke="#929AAB" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="290" y="705" fill="#788196" font-family="Arial, sans-serif" font-size="12" font-weight="600">2 tasks left</text>
+  <text x="830" y="705" fill="#6258E8" font-family="Arial, sans-serif" font-size="12" font-weight="700">Clear completed</text>
+</svg>
