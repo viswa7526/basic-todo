@@ -3,7 +3,7 @@
 A clean, fast, and distraction-free to-do app built with HTML, CSS, and JavaScript.
 
 <div align="center">
-  <img src="./preview.svg" width="900" alt="basic-todo app preview" />
+  <img src="./preview.svg" width="1000" alt="basic-todo app preview" />
 </div>
 
 ## 🖼️ Preview
