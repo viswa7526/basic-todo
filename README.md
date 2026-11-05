@@ -1,28 +1,36 @@
 # ✅ basic-todo
 
-A simple and focused to-do app built with HTML, CSS, and JavaScript.
+A clean, fast, and distraction-free to-do app built with HTML, CSS, and JavaScript.
+
+<div align="center">
+  <img src="./preview.svg" width="900" alt="basic-todo app preview" />
+</div>
 
 ## 🖼️ Preview
 
-![Todo app preview](./preview.svg)
+A focused task manager with a modern dashboard layout, progress tracking, filters, and local persistence.
 
 ## ✨ Features
-- Add new tasks
-- Mark tasks as complete
-- Delete tasks
-- Filter tasks by all, active, and completed
-- Clear completed tasks
-- Persistent storage using localStorage
+- Add new tasks instantly
+- Mark tasks as complete or active
+- Delete individual tasks
+- Filter by All, Active, and Done
+- Clear completed tasks in one click
+- Save tasks locally with `localStorage`
+- Responsive layout for smaller screens
 
-## 🚀 Usage
+## 🚀 How to use
 1. Open `index.html` in your browser.
-2. Add your daily tasks.
-3. Stay productive and organized.
+2. Type a task in the input box.
+3. Click "Add task" to save it.
+4. Mark tasks complete, filter them, or remove them as needed.
 
 ## 🛠️ Tech Stack
 - HTML
 - CSS
 - JavaScript
 
-## 📌 Project Name
-`basic-todo`
+## 📌 Project Info
+Project name: `basic-todo`
+
+This app is designed to keep task management simple, clear, and visually pleasant.
